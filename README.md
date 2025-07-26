@@ -1,2 +1,2 @@
 # mtoporek
-portfolio repository to spore information for recruiter
+portfolio repository to store information for recruiter
