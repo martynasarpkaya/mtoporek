@@ -1,6 +1,6 @@
 
-# Portfolio repository to store information for recruiter
+# 📫 Let’s Connect!
 
-Read the in installation instructions to set up the environment.
+If you’re interested in working together or have any questions, feel free to reach out.
 
-
+Thanks for visiting!
