@@ -57,36 +57,33 @@ h2 {
   max-width: 700px;
   margin: 20px auto;
 }
-    .animated-heading {
+   .main-heading {
   font-family: 'Nunito', sans-serif;
-  font-size: 3rem;
+  font-size: 3rem; 
   text-align: center;
-
   background: linear-gradient(90deg, #34d399, #10b981);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- 
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-   animation: fadeInUp 2s ease-in-out forwards;
 }
 
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.sub-heading {
+  display: block;
+  font-size: 1.8rem; 
+  color: #333;
+  margin-top: 5px;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
 }
   </style>
 </head>
 <body>
 
 <div class="text-box">
-  <h1 class="animated-heading"> 📢 Martyna Toporek – Technical Communication</h1> 
+  <h1 class="main-heading">
+  Technical Communication<br>
+  <span class="sub-heading">Martyna Toporek</span>
+</h1>
   <p>Hi! Welcome to my portfolio! You will find here a description of a few selected projects with a brief explanation of technical decisions. Feel free to explore 😉!
 <br><br><img src="martyna.png" alt="martyna" width="700">
 </p></div>
