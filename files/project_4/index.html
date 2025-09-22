@@ -77,11 +77,56 @@ h2 {
 .navigation a:hover {
   color: #555;
 }
+.home-icon {
+  position: fixed;        
+  top: 10px;
+  left: 10px;
+  font-size: 24px;       
+  color: black;           
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.6); 
+  border: none;         
+  outline: none; 
+  border-radius: 20px;     
+  padding: 5px 10px;       
+  cursor: pointer;
+  z-index: 1000;          
+  transition: background-color 0.3s;
+}
+
+.home-icon:hover,
+.home-icon:focus  {
+  background-color: rgba(255, 255, 255, 0.9); 
+   color: black;  
+}
+        @media (max-width: 600px) {
+  .text-box:first-of-type {
+    margin-top: 60px; /* dostosuj wysokość */
+  }
+}
+      @media (max-width: 600px) {
+  .home-icon {
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
+    padding: 4px 8px;
+  }
+}  
+        .text-box:first-of-type {
+  margin-top: 60px; /* wysokość + padding ikony */
+}
+
+@media (max-width: 600px) {
+  .text-box:first-of-type {
+    margin-top: 70px; /* trochę więcej na małych ekranach */
+  }
+}
 
     </style>
 </head>  
 
 <body class="home">
+<a href="https://martynasarpkaya.github.io/mtoporek/">🏠︎</a>    
      <section class="text-box">
       <h2>About the project</h2> 
           
@@ -118,7 +163,6 @@ Click here to read the articles: <a href="https://techwriter.pl/authors/toporek"
    <section class="text-box">
         <div class="navigation">
   <a href="../project_3/index.html">◀</a>
-  <a href="https://martynasarpkaya.github.io/mtoporek/">🏠︎</a>
   <a href="../project_5/index.html"> ▶</a>
 </div></section>
 
