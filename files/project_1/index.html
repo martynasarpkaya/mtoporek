@@ -75,14 +75,26 @@ h2 {
 .navigation a:hover {
   color: #555;
 }
-         .home-icon {
-      position: fixed;   
-      top: 10px;         
-      left: 10px;        
-      width: 40px;      
-      height: 40px;
-      cursor: pointer;   
-      z-index: 1000;
+        .home-icon {
+  position: fixed;        
+  top: 10px;
+  left: 10px;
+  font-size: 24px;       
+  color: black;           
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.6); 
+  border: 2px solid #333; 
+  border-radius: 20px;     
+  padding: 5px 10px;       
+  cursor: pointer;
+  z-index: 1000;          
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.home-icon:hover {
+  background-color: rgba(255, 255, 255, 0.9); 
+  color: #2d6a4f; 
+}
     </style>
 </head>  
 
