@@ -83,7 +83,8 @@ h2 {
   color: black;           
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.6); 
-  border: 2px solid #333; 
+  border: none;         
+  outline: none; 
   border-radius: 20px;     
   padding: 5px 10px;       
   cursor: pointer;
@@ -91,9 +92,10 @@ h2 {
   transition: background-color 0.3s;
 }
 
-.home-icon:hover {
+.home-icon:hover,
+.home-icon:focus  {
   background-color: rgba(255, 255, 255, 0.9); 
-   
+   color: black;  
 }
     </style>
 </head>  
