@@ -76,11 +76,61 @@ h2 {
 .navigation a:hover {
   color: #555;
 }
+        @media (max-width: 600px) {
+  body {
+    background-size: contain; 
+    background-position: top center;
+}
+      .home-icon {
+  position: fixed;        
+  top: 10px;
+  left: 10px;
+  font-size: 24px;       
+  color: black;           
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.6); 
+  border: none;         
+  outline: none; 
+  border-radius: 20px;     
+  padding: 5px 10px;       
+  cursor: pointer;
+  z-index: 1000;          
+  transition: background-color 0.3s;
+}
+
+.home-icon:hover,
+.home-icon:focus  {
+  background-color: rgba(255, 255, 255, 0.9); 
+   color: black;  
+}
+        @media (max-width: 600px) {
+  .text-box:first-of-type {
+    margin-top: 60px; /* dostosuj wysokość */
+  }
+}
+      @media (max-width: 600px) {
+  .home-icon {
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
+    padding: 4px 8px;
+  }
+}  
+        .text-box:first-of-type {
+  margin-top: 60px; /* wysokość + padding ikony */
+}
+
+@media (max-width: 600px) {
+  .text-box:first-of-type {
+    margin-top: 70px; /* trochę więcej na małych ekranach */
+  }
+}
 
     </style>
 </head>  
 
 <body class="home">
+    <a href="https://martynasarpkaya.github.io/mtoporek/" class="home-icon">🏠︎</a>
      <section class="text-box">
       <h2>About the project</h2> 
           
@@ -100,6 +150,14 @@ h2 {
     </section>
 
     <section class="text-box">
+      <h2>👤 Role</h2> 
+          
+      <p>Collaborated with the product engineer and verified content with the sales department to prepare news updates. Simplified and translated technical content into clear, accessible language.</p>
+  
+       </section
+
+
+    <section class="text-box">
       <h2>⏳ Process</h2>
     
       <ul>
@@ -113,7 +171,6 @@ h2 {
    <section class="text-box">
        <div class="navigation">
   <a href="../project_2/index.html">◀</a>
-  <a href="https://martynasarpkaya.github.io/mtoporek/">🏠︎</a>
   <a href="../project_4/index.html"> ▶</a>
 </div></section>
 </body>
