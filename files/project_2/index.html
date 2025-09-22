@@ -76,10 +76,56 @@ h2 {
 .navigation a:hover {
   color: #555;
 }
+        .home-icon {
+  position: fixed;        
+  top: 10px;
+  left: 10px;
+  font-size: 24px;       
+  color: black;           
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.6); 
+  border: none;         
+  outline: none; 
+  border-radius: 20px;     
+  padding: 5px 10px;       
+  cursor: pointer;
+  z-index: 1000;          
+  transition: background-color 0.3s;
+}
+
+.home-icon:hover,
+.home-icon:focus  {
+  background-color: rgba(255, 255, 255, 0.9); 
+   color: black;  
+}
+        @media (max-width: 600px) {
+  .text-box:first-of-type {
+    margin-top: 60px; /* dostosuj wysokość */
+  }
+}
+      @media (max-width: 600px) {
+  .home-icon {
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
+    padding: 4px 8px;
+  }
+}  
+        .text-box:first-of-type {
+  margin-top: 60px; /* wysokość + padding ikony */
+}
+
+@media (max-width: 600px) {
+  .text-box:first-of-type {
+    margin-top: 70px; /* trochę więcej na małych ekranach */
+  }
+}
+
     </style>
 </head>  
 
 <body class="home">
+    <a href="https://martynasarpkaya.github.io/mtoporek/" class="home-icon">🏠︎</a>
      <section class="text-box">
       <h2>About the project</h2> 
           
@@ -101,6 +147,14 @@ h2 {
     </section>
 
     <section class="text-box">
+      <h2>👤 Role</h2> 
+          
+      <p>Developed documentation for end users of medical devices and software, designing a reusable structure that can be adapted when software changes. I worked closely with developers to eliminate terminology errors and redundancies. I collaborated with ESM and regulatory specialists to ensure compliance with medical standards, and coordinated with a team of illustrators to standardize GUI elements and screenshots. The purpose of this project was to simplify already complex procedures in the application, including applicable legislation. </p>
+  
+       </section>
+
+    <section class="text-box">
+        
       <h2>⏳ Process</h2>
     
       <ul>
